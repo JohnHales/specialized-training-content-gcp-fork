@@ -17,6 +17,7 @@ COPY data/ ./data/
 COPY frontend/ ./frontend/
 COPY presentation/ ./presentation/
 COPY script/ ./script/
+COPY script-original/ ./script-original/
 
 # Set environment variables
 ENV PORT=8080
