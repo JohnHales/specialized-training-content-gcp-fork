@@ -63,9 +63,15 @@ So let's look at the top three business problems the executive team decided to t
 ### The other problems
 
 > [!NOTE] 
-> Click **Problem 1** to collapse it, then click the **Problem 3: High-Touch Strategic Partnerships** card to expand it.
+> Click **Problem 1** to collapse it, then click the **Problem 2: Accelerating Product Velocity** card to expand it.
 
-1. For contrast, let's look at the third problem (expand card). 
+1. Let's expand the problem 2 card.
+   1. You can see a similar analysis, and similar goal setting has taken place here. We won't dig too deep on this one.
+
+> [!NOTE] 
+> Collapse **Problem 2**, then click the **Problem 3: High-Touch Strategic Partnerships** card to expand it.
+
+2. But I do want to dig into problem 3 (expand card).
    1. Notice this problem is about increasing retention and increasing contract length with the top 50 customers.
    2. You can see in the description of the business problem that this requires a lot of relationship management and very complex contract negotiations.
    
@@ -147,7 +153,7 @@ So let's look at the top three business problems the executive team decided to t
 > [!NOTE] 
 > Point to the orange **Pain Points** panel beside each stage.
 
-7. Paint points
+7. Pain points
    1. You'll notice that the team went above and beyond and actually identified pain points for each of the stages.
    2. All of the stages have one common pain point which is that it's a lot of manual toil.
    3. And due to that sheer amount of work, you run into things like missed signals and poorly conceived interventions.
