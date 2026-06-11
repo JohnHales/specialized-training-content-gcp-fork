@@ -7,6 +7,10 @@ Step-by-step guide for delivering the demo scenario.
 - Start the demo server locally, or deploy to Cloud Run (see README.md)
 - Open to **Intro to Cymbal Meet** page
 
+## Original script
+
+This version of the script includes instructor action callouts. To view the original script without them, go to the **/script-original** URL.
+
 ---
 
 ## Intro to Cymbal Meet
@@ -22,7 +26,7 @@ Step-by-step guide for delivering the demo scenario.
 ### 2026 planning
 
 > [!NOTE] 
-> Scroll down to the **Strategic Planning** timeline and point to each step as you cover it.
+> Scroll down to the **2026 Strategic Planning Initiative** section and point to each step as you cover it.
 
 1. The executive team kicked off 2026 with a strategic planning effort focused on identifying the biggest problems and opportunities for the business.
 1. For each, they defined the current state of the business, where they wanted the business to go, and what impact these changes would have.
@@ -233,7 +237,7 @@ So let's look at the top three business problems the executive team decided to t
 ### CRM
 
 > [!NOTE] 
-> Click the button in CRM System card.
+> Click **Open** in the **CRM System** card.
 
 1. CRM: Here we have a CRM system with our customers. 
    1. There are 24 in this demo system, but assume we're closer to 2400 in real life.
@@ -246,8 +250,7 @@ So let's look at the top three business problems the executive team decided to t
 ### CSM Dashboard
 
 > [!NOTE] 
-> Click Cymbal Meet logo in center panel to return to home page.
-> Click the button in CSM Dashboard card.
+> Click the **Cymbal Meet** logo (top left) to return to the demo home page, then click **Open** in the **CSM Dashboard** card.
 
 1. This is a dashboard that Customer Success Managers use to track:
    1. Customer health
@@ -267,7 +270,7 @@ So let's look at the top three business problems the executive team decided to t
 ### The agents in action
 
 > [!NOTE] 
-> Return to CSM Dashboard listing.
+> Click **Back to Customers** (top left) to return to the customer list.
 
 1. Ok, so that's the context. Let's see what the agentic solution offers
 2. Cymbal Meet has built an agentic system that kicks in weekly to find and address these engagement issues. 
@@ -284,7 +287,7 @@ So let's look at the top three business problems the executive team decided to t
 ### The results
 
 > [!NOTE] 
-> Close the agent run modal.
+> Click **Close** in the agent run modal.
 
 1. You'll notice that the dashboard has been updated, and shows interventions that are underway and pending approval. 
    1. This is a clue that some things the agent can do entirely on its own; others, you want a human-in-the-loop making approvals and/or tweaks.
@@ -310,8 +313,8 @@ So let's look at the top three business problems the executive team decided to t
 3. Ok, let's quickly review the actual agent actions.
 
 > [!NOTE] 
-> Click the Cymbal Meet logo to return to the demo home page, then click the button in the **Sent Messages** card.
-> Open the **Nexus Tech** email first; click the **Greenleaf** email and then the third email as you discuss them.
+> Click the **Cymbal Meet** logo (top left) to return to the demo home page, then click **Open** in the **Sent Messages** card.
+> Click the **Nexus Tech** email first; click the **Greenleaf** email and then the third email as you discuss them.
 
 4. Here is the customer success manager's email. You can see:
    1. The agent has sent emails of various types to primary technical contacts at the customers who have engagement issues.
@@ -324,15 +327,15 @@ So let's look at the top three business problems the executive team decided to t
    4. If we look at the third email, you can see this is more of a direct intervention, telling the customer what's wrong and what to do about it. Again, the agent can decide what performance details to share, how to format, and what directions to pull from troubleshooting guides and present neatly in the email.
 
 > [!NOTE] 
-> Return to the demo home page and click the button in the **Backend Admin** card. Point out the **Enabled** campaigns versus those still **Pending Approval**.
+> Click the **Cymbal Meet** logo (top left) to return to the demo home page, then click **Open** in the **Backend Admin** card. Point out the **Enabled Campaigns** and **Pending Approval** tables.
 
 5. If we check out the VC system backend we can see:
    1. The intervention the CSM approved has been enabled.
    2. The other similar interventions are pending CSM approval.
 
 > [!NOTE] 
-> Optional: Return to the demo home page and click the button in the **End-User Client** card.
-> Use the **Viewing as** chips: show **Regular User — No Notification** first, then a **Nexus Tech** chip to show the agent-built prompt slide in.
+> Optional: Click the **Cymbal Meet** logo (top left) to return to the demo home page, then click **Open** in the **End-User Client** card.
+> Use the **Viewing as** chips: select **Regular User — No Notification** first, then a **Nexus Tech** chip to show the agent-built prompt slide in.
 
 6. Optional - And what exactly is being approved/enabled?
    1. Well, when a user logs into the VC client, they see a UI like this.
@@ -349,7 +352,7 @@ So let's look at the top three business problems the executive team decided to t
 ## Takeaways
 
 > [!NOTE] 
-> Return to the presentation and click **Takeaways** in the left sidebar.
+> Click the **Cymbal Meet** logo (top left) to return to the demo home page, then click it again to return to the presentation. Click **Takeaways** in the left sidebar.
 
 1. Ok, that was quite the involved demo scenario.
 2. But hopefully it did a good job driving home these takeaways:
