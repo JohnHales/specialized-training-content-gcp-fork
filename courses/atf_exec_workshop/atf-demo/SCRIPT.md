@@ -334,10 +334,10 @@ So let's look at the top three business problems the executive team decided to t
    2. The other similar interventions are pending CSM approval.
 
 > [!NOTE] 
-> Optional: Click the **Cymbal Meet** logo (top left) to return to the demo home page, then click **Open** in the **End-User Client** card.
+> Click the **Cymbal Meet** logo (top left) to return to the demo home page, then click **Open** in the **End-User Client** card.
 > Use the **Viewing as** chips: select **Regular User — No Notification** first, then a **Nexus Tech** chip to show the agent-built prompt slide in.
 
-6. Optional - And what exactly is being approved/enabled?
+6. And what exactly is being approved/enabled?
    1. Well, when a user logs into the VC client, they see a UI like this.
    2. But if it's a Nexus Tech employee where the calendar outreach interventions have been built and enabled, it looks like this:
       1. The agent has composed the text presented.
