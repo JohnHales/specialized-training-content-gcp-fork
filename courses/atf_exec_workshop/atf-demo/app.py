@@ -28,6 +28,7 @@ CORS(app)
 FRONTEND_DIR = os.path.join(os.path.dirname(__file__), "frontend")
 PRESENTATION_DIR = os.path.join(os.path.dirname(__file__), "presentation")
 SCRIPT_DIR = os.path.join(os.path.dirname(__file__), "script")
+SCRIPT_ORIGINAL_DIR = os.path.join(os.path.dirname(__file__), "script-original")
 
 # ---------------------------------------------------------------------------
 # Global state — loaded once at startup, mutated by agent run / approvals
@@ -99,6 +100,21 @@ def script_files(path):
     full = os.path.join(SCRIPT_DIR, path)
     if os.path.isfile(full):
         return send_from_directory(SCRIPT_DIR, path)
+    abort(404)
+
+
+@app.route("/script-original")
+@app.route("/script-original/")
+def script_original_index():
+    return send_from_directory(SCRIPT_ORIGINAL_DIR, "index.html")
+
+
+@app.route("/script-original/<path:path>")
+def script_original_files(path):
+    """Serve the original (pre-callout) presenter script from script-original/."""
+    full = os.path.join(SCRIPT_ORIGINAL_DIR, path)
+    if os.path.isfile(full):
+        return send_from_directory(SCRIPT_ORIGINAL_DIR, path)
     abort(404)
 
 
